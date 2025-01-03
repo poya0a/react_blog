@@ -20,7 +20,14 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
-    "noUncheckedSideEffectImports": true
+    "noUncheckedSideEffectImports": true,
+
+    "baseUrl": ".",
+    "paths": {
+      "common/*": ["src/common/*"],
+      "layout/*": ["src/layout/*"],
+      "pages/*": ["src/pages/*"]
+    },
   },
   "include": ["src"]
 }
